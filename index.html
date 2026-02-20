@@ -1044,19 +1044,19 @@
         <form class="contact-form" action="https://formspree.io/f/xojnnyan" method="POST">
           <div class="form-group">
             <label>Your Name</label>
-            <input type="text" placeholder="John Smith" required />
+            <input type="text" name="name" placeholder="John Smith" required />
           </div>
           <div class="form-group">
             <label>Email Address</label>
-            <input type="email" placeholder="john@company.com" required />
+            <input type="email" name="email" placeholder="john@company.com" required />
           </div>
           <div class="form-group">
             <label>Your Business / Niche</label>
-            <input type="text" placeholder="e.g. Roofing Business, E-commerce, Coaching" />
+            <input type="text" name="business" placeholder="e.g. Roofing Business, E-commerce, Coaching" />
           </div>
           <div class="form-group">
             <label>What Do You Need?</label>
-            <select>
+            <select name="service">
               <option>Meta Ads Management</option>
               <option>Lead Funnel Setup</option>
               <option>Ads Strategy & Consulting</option>
@@ -1066,7 +1066,7 @@
           </div>
           <div class="form-group">
             <label>Tell Me More</label>
-            <textarea placeholder="What's your current ad situation? What results are you looking for? Monthly budget? Any context helps..."></textarea>
+            <textarea name="message" placeholder="What's your current ad situation? What results are you looking for? Monthly budget? Any context helps..."></textarea>
           </div>
           <button type="submit" class="form-submit">Send Message →</button>
         </form>
